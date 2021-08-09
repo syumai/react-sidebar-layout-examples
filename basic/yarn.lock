@@ -1683,10 +1683,8 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@syumai/react-sidebar-layout@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@syumai/react-sidebar-layout/-/react-sidebar-layout-0.1.0.tgz#f2b62f7db8d73079dbb09e1ef6ba3331bebbcc7c"
-  integrity sha512-SXEfy+IBwGFekaITXzzhUkWW7y7QweUtKOfX643uSw+R/fb/83CEY7LUkFYQ3WRyVD/5GUFlPSEKd3RVqIGJHA==
+"@syumai/react-sidebar-layout@../../react-sidebar-layout":
+  version "0.1.1"
   dependencies:
     styled-components "^5.0.0"
 
