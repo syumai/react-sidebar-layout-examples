@@ -63,13 +63,13 @@ const SecondaryViewContent = () => (
 const App = (): JSX.Element => {
   return (
     <SidebarLayout defaultSidebarWidth={200} defaultSecondaryViewWidth={250}>
-      <Sidebar>
+      <Sidebar className="sidebar">
         <SidebarContent />
       </Sidebar>
-      <PrimaryView>
+      <PrimaryView className="primary-view">
         <PrimaryViewContent />
       </PrimaryView>
-      <SecondaryView>
+      <SecondaryView className="secondary-view">
         <SecondaryViewContent />
       </SecondaryView>
     </SidebarLayout>
